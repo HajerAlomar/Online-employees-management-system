@@ -1,0 +1,427 @@
+html {
+  background-image: url("img/3.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:"Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  
+}
+main {
+	padding: 70px 0;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	width : 100% ; 
+	height: auto;
+}
+
+header nav , ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+}
+.navb li a:hover {
+	background-color: #2F4F4F;
+}
+li {
+	float: left;
+}
+.navb li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.breadcrumbs {
+	padding-left: 30px;
+}
+.breadcrumbs li {
+	font-size:small;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	
+	padding-right: 4px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+ul.breadcrumbs li + li:before {
+	color: white;
+	content: "/";
+}
+ul.breadcrumbs span {
+
+	padding-left: 5px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+ul.breadcrumbs li a {
+	text-align: center;
+	padding-right: 4px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+	ul.breadcrumbs li a:hover {
+		background-color: #2F4F4F;
+
+	
+	}
+
+button {
+	background-color: #354F60;
+	border: none;
+	color: white;
+	padding: 30px 46px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.EMPbutton {
+	background-color: #354F60;
+	color: white;
+}
+
+.EMPbutton:hover{
+	background-color: white; 
+  color: black; 
+  border: 2px solid #2F4F4F;
+}
+
+.MANbutton {
+	background-color: #354F60;
+	color: white;
+}
+
+.MANbutton:hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #2F4F4F;
+}
+
+#sign {
+	color: black;
+}
+footer {
+	background-color: #333;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	transition: bottom 0.1s;
+}
+footer img{ 
+	padding:8px 40px;
+}
+footer aside {
+	margin-right:3%;
+	float:right;
+	bottom: 2px;
+	right: 16px;
+	color: white;
+}
+
+ 
+.form1{
+	text-align: center;
+}
+.formInfo {
+	background-color: #354F60;
+	border: none;
+	color: white;
+	padding: 30px 46px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.formInfo2 {
+	background-color: #354F60;
+	border: none;
+	color: white;
+	padding: 30px 46px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 15px 7px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.formSubmit{
+	text-align: center;
+	
+}
+.sign{
+color:black;
+}
+legend{
+	font-size:20px;
+}	
+.logOut{
+	text-align: right;
+	padding:4px 10px;
+}
+.aboutUs {
+	background-color: #354F60;
+	color: white;
+	text-align: left;
+	padding: 30px 46px;
+	width: 80%;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+
+.help {
+	background-color: #354F60;
+	text-align: left;
+	color: white;
+	padding: 30px 46px;
+
+	width: 80%;
+	margin: auto;
+	border-radius: 8px;
+}
+.help h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 80px;
+}
+
+	.help p {
+	padding-left: 30px;
+	}
+
+/*-----------EMP/MAN PAGE-------------*/
+.logOut-add{
+	text-align: right;
+	padding:4px 10px;
+}
+
+.add{
+  border-style:solid;
+  border-color:#2F4F4F;
+  background-color:#354F60  ;
+  border-radius: 10px;
+  width: 50%;
+  margin:auto;
+
+
+}
+
+.t0{
+  width: 100%;
+  margin:auto;
+
+}
+
+caption{
+  color:#BEC5CD;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif ;
+  font-family: bold;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  
+}
+
+th{
+  text-align: center;
+  background-color:#8f9399;
+  color :#354F60;
+  border-radius: 10px;
+
+
+}
+
+
+
+ td {
+   width:70%;
+  border: 1px solid white ;
+  border-radius: 10px;
+  font-size:20px; 
+ 
+}
+.r2, .l1{
+  background-color: #BEC5CD;
+    color: #467082;
+
+}
+
+  .t3 a:link, a:visited {
+    
+    border-radius: 25px;
+  background-color:#8f9399;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:50%;
+}
+
+.t3 a:hover, a:active {
+  border-radius: 25px;
+  background-color:#BEC5CD;
+
+
+}
+.p3{
+  width: 40%;
+}
+
+
+.t4 a:link, a:visited {
+  border-radius: 25px;
+  background-color:#8f9399;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:50%;
+}
+
+.t4 a:hover, a:active {
+  border-radius: 25px;
+  background-color:#BEC5CD;
+
+}
+
+.t5 a:link, a:visited {
+  border-radius: 25px;
+  background-color:#8f9399;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:50%;
+}
+
+.t5 a:hover, a:active {
+  border-radius: 25px;
+  background-color:#BEC5CD;
+
+}
+
+.p0 a:link {
+  color:#BEC5CD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.p1 a:link {
+  color:#BEC5CD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.p2 a:link {
+  color:#BEC5CD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.p3 a:link {
+  color:#BEC5CD;
+  background-color: transparent;
+  text-decoration: none;
+}
+.a1{
+  color:#BEC5CD;
+}
+
+.z0 , .l1{
+  font-size: 20px;
+
+}
+/*-----------EMP/MAN PAGE-------------*/
+
+
+/*-----------Request info PAGE-------------*/
+.reqinf span {
+	justify-content: center;
+	display: flex;
+	display: inline-block;
+}
+
+
+
+span {
+	flex: space-around;
+}
+
+.reqinf sertyp {
+	justify-content: left;
+}
+
+#serstat {
+	background-color: lightblue;
+	justify-content: right;
+}
+/*-----------Request info PAGE-------------*/
+
+
+/*-----------Add Request PAGE-------------*/
+
+#addform {
+	width: 100%;
+	justify-content: center;
+}
+
+/*-----------Add Request PAGE-------------*/
+
+#btn{
+    	padding: 10px 30px;
+         font-size: 24px;
+         cursor: pointer;
+  
+	border-radius: 7px;
+	border-bottom-left-radius: 0;
+  
+	background-color:#8f9399;
+	color: var(--feedback-primary-color);
+  
+	transition: all 0.3s;
+  
+	
+}
+#btn:hover {background-color: #b0c4de}
